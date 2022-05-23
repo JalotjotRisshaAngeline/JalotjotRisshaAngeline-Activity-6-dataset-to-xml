@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE City-Population [
+<!ELEMENT City-Population (country)>
+<!ELEMENT Country (name, year, area, sex, city, citytype, recordtype, reliability, sourceyear, value)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT citytype (#PCDATA)>
+<!ELEMENT recordtype (#PCDATA)>
+<!ELEMENT reliability (#PCDATA)>
+<!ELEMENT sourceyear (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+
+
+<!ATTLIST Country row CDATA #REQUIRED>
+
+]>
+
+
+<City-Population>
+	
+	<country id = "row 1">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Forli</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>116196</value>
+
+	</country>
+
+	<country id  = "row 2">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Genova</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>583482</value>
+
+	</country>
+
+	<country id = "row 3">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Guigliano</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>109689</value>
+
+	</country>
+
+	<country id = "row 4">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Latina</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>118593</value>
+
+	</country>
+
+	<country id = "row 5">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Livorno</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>156889</value>
+
+	</country>
+
+	<country id = "row 6">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Messina</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>242591</value>
+
+	</country>
+	
+	<country id = "row 7">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Milano</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>1251137</value>
+
+	</country>
+
+	<country id = "row 8">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Modena</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>179224</value>
+
+	</country>
+
+	<country id = "row 9">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Monza</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>120184</value>
+
+	</country>
+
+	<country id = "row 10">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Napoli</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>960079</value>
+
+	</country>
+
+
+</City-Population>
+
+	
