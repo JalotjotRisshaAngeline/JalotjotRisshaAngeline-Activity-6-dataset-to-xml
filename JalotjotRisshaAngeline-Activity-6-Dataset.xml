@@ -163,6 +163,22 @@
 
 	</country>
 
+	<country id = "row 11">
+		<name>Italy</name>
+		<year>2012</year>
+		<area>total</area>
+		<sex>Both Sexes</sex>
+		<city>Prato</city>
+		<citytype>City proper</citytype>
+		<recordtype>Estimate- dejure</recordtype>
+		<reliability>Provisional figure</reliability>
+		<sourceyear>2013</sourceyear>
+		<value>176013</value>
+
+	</country>
+
+
+
 
 </City-Population>
 
